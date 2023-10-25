@@ -90,3 +90,16 @@ SELECT libro.titulo, COUNT(itempedido.id)
 FROM libro, itempedido
 WHERE libro.id = itempedido.idlibro 
 GROUP BY libro.id;
+
+SELECT libro.titulo, COUNT(itempedido.id)
+FROM libro
+INNER JOIN itempedido ON itempedido.idlibro = libro.id
+GROUP BY libro.id;
+
+SELECT libro.titulo, COUNT(itempedido.id) as Cantidad
+FROM libro
+LEFT JOIN itempedido ON itempedido.idlibro = libro.id
+GROUP BY libro.id
+ORDER BY cantidad DESC, libro.titulo;
+
+
