@@ -19,13 +19,9 @@ itempedido:
 
 Esta tabla almacena los detalles de los libros incluidos en cada pedido.
 Cada ítem de pedido tiene un ID único y está vinculado a un pedido y a un libro mediante claves foráneas.
-compra:
 
-La tabla "compra" registra las compras de libros realizadas por los clientes.
-Cada compra tiene un ID único y está asociada a un cliente y a un libro mediante claves foráneas.
-Se almacena el precio de compra y la fecha de la compra.
+
 valoracionlibro:
-
 Esta tabla permite a los clientes dar valoraciones a los libros que han adquirido.
 Cada valoración tiene un ID único y está vinculada a un libro y a un cliente a través de claves foráneas.
 Se registra la valoración como un número decimal
