@@ -379,10 +379,6 @@ VALUES
   (3,9,2,"2019-07-27"),
   (17,9,4,"2019-08-22");
 
-
-
-
-
 INSERT INTO `valoracionlibro` (`idlibro`,`idcliente`,`valoracion`)
 VALUES
   (15,10,3),
